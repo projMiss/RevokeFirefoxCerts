@@ -1,7 +1,5 @@
 #!/bin/bash
 
-echo "RevokeFirefoxCerts revoke"
-
 SCRIPT_DIR=$(dirname "$0")
 CERTS="${SCRIPT_DIR}/certs/*"
 
