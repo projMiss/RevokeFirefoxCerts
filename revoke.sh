@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 
 SCRIPT_DIR=$(dirname "$0")
 CERTS="${SCRIPT_DIR}/certs/*"
