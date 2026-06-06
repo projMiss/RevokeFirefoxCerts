@@ -40,7 +40,7 @@ IgnorePkg   = mingw-w64-clang-x86_64-nss
 
 ```bash
 cd /path/to/RevokeFirefoxCerts
-export PATH="$PATH:$PWD"
+export PATH="$PWD:$PATH"
 cd /path/to/FirefoxProfileDir	#cert9.db, key4.db, pkcs11.txt所在目录。
 revoke.sh
 ```
